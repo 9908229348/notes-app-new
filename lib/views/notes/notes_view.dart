@@ -5,7 +5,6 @@ import 'package:notes_app/services/auth/bloc/auth_bloc.dart';
 import 'package:notes_app/services/auth/bloc/auth_event.dart';
 import 'package:notes_app/services/cloud/cloud_note.dart';
 import 'package:notes_app/services/cloud/firebase_cloud_storage.dart';
-import 'package:notes_app/services/crud/notes_service.dart';
 import 'package:notes_app/views/notes/notes_list_view.dart';
 import '../../constants/routes.dart';
 import '../../enum/menu_action.dart';

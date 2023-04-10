@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bloc/bloc.dart';
-import 'package:notes_app/constants/routes.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:notes_app/constants/uiconstants.dart';
 import 'package:notes_app/services/auth/auth_exceptions.dart';
-import 'package:notes_app/services/auth/auth_service.dart';
 import 'package:notes_app/services/auth/bloc/auth_bloc.dart';
 import 'package:notes_app/services/auth/bloc/auth_event.dart';
 import 'package:notes_app/services/auth/bloc/auth_state.dart';
@@ -55,7 +53,7 @@ class _RegisterViewState extends State<RegisterView> {
       child: Scaffold(
         appBar: AppBar(title: const Text('Register')),
         body: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(paddingValue),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

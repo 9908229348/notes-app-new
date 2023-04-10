@@ -1,0 +1,1 @@
+const double paddingValue = 16.0;
